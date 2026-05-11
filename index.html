@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Web de Ejemplo</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4A90E2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .banner {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .card {
+            background: white;
+            width: 80%;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #4A90E2;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #357ABD;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>PAGINA WEB DE EJEMPLO - EROS </h1>
+        <p>Esta es una página web creada como ejemplo usando HTML + CSS en un solo archivo. Las imagenes son aleatorias</p>
+    </header>
+
+    <!-- Imagen tipo banner -->
+    <img class="banner" src="https://picsum.photos/1200/300" alt="Imagen de encabezado">
+
+    <div class="card">
+        <img src="https://picsum.photos/600/300" alt="Imagen dentro de la tarjeta">
+
+        <h2>Tarjeta con Imagen</h2>
+        <p>
+            Esta tarjeta incluye una imagen superior, bordes redondeados y una sombra suave.
+            Es un ejemplo perfecto para enseñar estructura básica y diseño visual simple.
+        </p>
+
+        <a class="btn" href="#">Ver más</a>
+    </div>
+
+</body>
+</html>
